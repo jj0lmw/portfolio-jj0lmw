@@ -12,15 +12,16 @@
 <meta property="og:title" content="<?php bloginfo('name'); ?>" />
 <meta property="og:description" content="<?php bloginfo('description'); ?>" />
 <meta property="og:url" content="<?php home_url(); ?>" />
-<meta property="og:image" content="<?php echo get_template_directory(); ?>/assets/img/ogp.png">
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/ogp.png">
 <meta name="twitter:card" content="summary_large_image" />
-<link rel="stylesheet" href="<?php echo get_template_directory(); ?>/src/css/style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/css/reset.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/css/style.css">
 <?php wp_head(); ?>
 </head>
 
 <body>
 <header>
-	<a href="<?php home_url(); ?>"><img src="<?php echo get_template_directory(); ?>/assets/img/logo.png" alt="<?php bloginfo('name'); ?>"></a>
+	<h1><a href="<?php home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="<?php bloginfo('name'); ?>"></a></h1>
 
 	<nav>
 		<ul>
