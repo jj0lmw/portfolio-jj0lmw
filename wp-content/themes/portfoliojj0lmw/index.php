@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main class="main_wrap">
-	<section>
+	<section id="about">
 		<div class="section_area">
 			<span class="section_subttl">About</span>
 			<h2>私について</h2>
@@ -12,7 +12,7 @@
 				</li>
 				<li class="about_item">
 					<img src="https://placehold.jp/300x225.png" alt="">
-					<p>和歌山大学システム工学部デザイン情報学科<br>デザイン工学 × 情報工学</p>
+					<p>和歌山大学<br>システム工学部デザイン情報学科<br>デザイン工学 × 情報工学</p>
 				</li>
 				<li class="about_item">
 					<img src="https://placehold.jp/300x225.png" alt="">
@@ -22,10 +22,10 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="skill">
 		<div class="section_area">
 			<span class="section_subttl">Skill</span>
-			<h2>スキル（開発）</h2>
+			<h2>スキル</h2>
 			<ul class="skill_list">
 				<li class="skill_item">
 					<p class="skill_label">WordPress</p>
@@ -61,7 +61,7 @@
 
 	</section>
 
-	<section>
+	<section id="character">
 		<div class="section_area">
 			<span class="section_subttl">Character</span>
 			<h2>人柄</h2>

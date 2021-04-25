@@ -19,7 +19,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body>
+<body id="top">
 <header class="header_wrap">
 	<div class="header_area">
 		<h1 class="logo">
@@ -32,10 +32,9 @@
 		<nav class="menu">
 			<ul>
 				<li>
-					<a href="#"><span>ページ1</span></a>
-					<a href="#"><span>ページ1</span></a>
-					<a href="#"><span>ページ1</span></a>
-					<a href="#"><span>ページ1</span></a>
+					<a href="#about"><span>私について</span></a>
+					<a href="#skill"><span>スキル</span></a>
+					<a href="#character"><span>人柄</span></a>
 				</li>
 			</ul>
 		</nav>
