@@ -15,13 +15,11 @@
 
 ## コンテンツ構成
 - 私について（価値観）
-- この先やりたいこと
 - スキル（開発）
 - 人柄
 
 ~~~
 About
-Doing
 Skill
 ・Develop
 Character
