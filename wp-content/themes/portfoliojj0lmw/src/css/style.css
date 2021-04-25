@@ -3,16 +3,36 @@
 /* header */
 .header_area {
 	width: 1100px;
-	height: 100px;
-	margin: auto;
+	height: 40px;
+	margin: 20px auto;
 	padding: 0 20px;
 }
 .header_area .logo {
 	float: left;
 }
+.header_area .logo a {
+	text-decoration: none;
+	font-size: 32px;
+	font-weight: bold;
+}
 .header_area .menu {
 	float: right;
-	height: 80px;
+}
+.header_area .menu .menu_link {
+	position: relative;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+}
+.header_area .menu .menu_link span::after{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	width: 100%;
+	height: 2px;
+	background-color: #ccc;
 }
 
 /* main */

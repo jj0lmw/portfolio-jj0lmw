@@ -7,15 +7,15 @@
 			<h2>私について</h2>
 			<ul class="about_list">
 				<li class="about_item">
-					<img src="https://placehold.jp/300x225.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_1.jpg" alt="">
 					<p>新潟市秋葉区出身</p>
 				</li>
 				<li class="about_item">
-					<img src="https://placehold.jp/300x225.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_2.jpg" alt="">
 					<p>和歌山大学<br>システム工学部デザイン情報学科<br>デザイン工学 × 情報工学</p>
 				</li>
 				<li class="about_item">
-					<img src="https://placehold.jp/300x225.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_3.jpg" alt="">
 					<p>株式会社シアンス<br>WordPress</p>
 				</li>
 			</ul>

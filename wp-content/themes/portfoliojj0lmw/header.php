@@ -24,17 +24,16 @@
 	<div class="header_area">
 		<h1 class="logo">
 			<a href="<?php home_url(); ?>">
-				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="<?php bloginfo('name'); ?>"> -->
-				<img src="https://placehold.jp/100x40.png" alt="<?php bloginfo('name'); ?>">
+				<span>jj0lmw</span>
 			</a>
 		</h1>
 
 		<nav class="menu">
 			<ul>
 				<li>
-					<a href="#about"><span>私について</span></a>
-					<a href="#skill"><span>スキル</span></a>
-					<a href="#character"><span>人柄</span></a>
+					<a class="menu_link" href="#about"><span>私について</span></a>
+					<a class="menu_link" href="#skill"><span>スキル</span></a>
+					<a class="menu_link" href="#character"><span>人柄</span></a>
 				</li>
 			</ul>
 		</nav>
