@@ -1,9 +1,11 @@
-<footer>
-	<a href="#top">
-		<span>ページの先頭へ戻る</span>
-	</a>
+<a href="#top">
+	<span>ページの先頭へ戻る</span>
+</a>
 
-	<p><small>&copy; 2021 jj0lmw</small></p>
+<footer class="fotter_wrap">
+	<div class="footer_area">
+		<span><small>&copy; 2021 jj0lmw</small></span>
+	</div>
 </footer>
 
 </div>

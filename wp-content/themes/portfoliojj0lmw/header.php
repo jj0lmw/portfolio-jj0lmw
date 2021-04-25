@@ -20,14 +20,24 @@
 </head>
 
 <body>
-<header>
-	<h1><a href="<?php home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="<?php bloginfo('name'); ?>"></a></h1>
+<header class="header_wrap">
+	<div class="header_area">
+		<h1 class="logo">
+			<a href="<?php home_url(); ?>">
+				<!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="<?php bloginfo('name'); ?>"> -->
+				<img src="https://placehold.jp/100x40.png" alt="<?php bloginfo('name'); ?>">
+			</a>
+		</h1>
 
-	<nav>
-		<ul>
-			<li>
-				<a href="/page1/"><span>ページ1</span></a>
-			</li>
-		</ul>
-	</nav>
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="#"><span>ページ1</span></a>
+					<a href="#"><span>ページ1</span></a>
+					<a href="#"><span>ページ1</span></a>
+					<a href="#"><span>ページ1</span></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </header>
